@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './App.css';
 import io from 'socket.io-client';
 
-const socket = io('');
+const socket = io();
 
 function App() {
   const [message, setMessage] = useState('');
